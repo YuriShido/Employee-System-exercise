@@ -43,8 +43,9 @@ public class HourlyEmployee extends Employee {
 	
 	@Override
 	public String toString() {
-		return super.toString() + "Pay rate is " + payRate
-				+ "\nHours of working is " + hoursWorking
-				+ "\nTotal week of income is " + calculateIncome() + "\n";
+		return "******Hourly employee******\n" 
+				+ super.toString() + "Pay rate : " + payRate
+				+ "\nHours of working is : " + hoursWorking
+				+ "\nTotal income : " + calculateIncome();
 	}
 }

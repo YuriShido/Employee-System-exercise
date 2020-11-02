@@ -85,10 +85,10 @@ public abstract class Employee {
 	
 	@Override
 	public String toString() {
-		return "The name of employee is " + firstName + " " + lastName 
-				+ "\nEmail is " + email
-				+ "\nStart date is " + startDate
-				+ "\nPhone number is " + phoneNum +"\n";
+		return "The name of employee : " + firstName + " " + lastName 
+				+ "\nEmail : " + email
+				+ "\nStart date : " + startDate
+				+ "\nPhone number : " + phoneNum +"\n";
 				
 	}
 	

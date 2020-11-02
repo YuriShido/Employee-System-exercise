@@ -38,14 +38,16 @@ public class SalesEmployee extends Employee{
 	
 	@Override
 	public double calculateIncome() {
-		return Math.floor((commitRate + totalSales)*100)/100;
+		return Math.floor(commitRate * totalSales *100)/100;
 	}
 	
 	@Override
 	public String toString() {
-		return super.toString() + "Commit rate is " + commitRate
+		return "******Sales employee******\n" 
+				+ super.toString() 
+				+ "Commit rate is " + commitRate
 				+ "\nTotal sales is " + totalSales
-				+ "\nTotal anual income is " + calculateIncome() +"\n";
+				+ "\nTotal income is " + calculateIncome();
 	}
 
 	
